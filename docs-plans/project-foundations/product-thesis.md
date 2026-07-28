@@ -74,7 +74,10 @@ During the sync meeting, the team opens the Co-Align dashboard on a shared scree
   - Rather than using confrontational prompts, the agent acts as a supportive facilitator. For example, instead of *"Alice, why did you score feasibility a 1?"*, it prompts: *"There are differing assumptions around the development time for Feature X. Let's discuss what challenges we might face."* The team lead can customize or live-edit the agent's prompt guidelines in the settings panel.
 - **Phase 3: Interactive Decision & Scribing (10 mins):**
   - **Collaborative Editor with Scribe:** The final document editor is fully collaborative (like Google Docs)—any member can jump in to edit or tweak sections. However, the team designates one member as a "secretary/scribe" to take lead notes.
-  - **Reference Side-Panels:** While editing, the original inputs typed by individual members during the quiet reflective phase are displayed in read-only side-panels, ensuring their original voices are never overwritten or forgotten.
+  - **Reference Side-Panels with Minority Safeguards:** While editing, the original inputs typed by individual members during the quiet reflective phase are displayed in read-only side-panels. To actively protect these contributions from being ignored by the scribe, the editor enforces three safeguards:
+    - **Visual Integration Checklist:** Points in individual drafts remain highlighted in red on their side-panels. As the scribe integrates or references these points in the shared document, they turn green, acting as a visual progress indicator.
+    - **Consensus Approval Gate:** Before the scribe can finalize and export the document, all invited team members must click "Approve Synthesis" on their own devices. Members can click "Request Change" to flag specific sections if they feel their ideas were erased.
+    - **Logged Rejection Archive:** If the team explicitly decides to exclude an individual's idea, the scribe must select that point in the side-panel and choose/write a rejection rationale (e.g. "deferred to next phase"). This is saved in an archive so their contribution is recorded as a deliberate team choice rather than silently lost.
 
 ### 3. Dialogue-Driven Simulation Sandbox
 To resolve debates without the agent dictating the path, the dashboard includes a simulation playground:
